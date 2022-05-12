@@ -1,0 +1,137 @@
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css);
+* {
+  margin: 0px;
+  padding: 0px;
+  -webkit-box-sizing: content-box;
+          box-sizing: content-box;
+  color: white;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+html {
+  background-color: #242424;
+}
+
+.nav {
+  height: 35%;
+  background-color: #242424;
+  margin: auto;
+  width: 90%;
+  color: white;
+}
+
+.nav .img-title {
+  float: left;
+  width: 12.5%;
+  margin-top: -20px;
+}
+
+.nav li {
+  list-style: none;
+}
+
+.nav .admin-dash {
+  color: grey;
+  margin-right: 5px;
+}
+
+.nav .bread {
+  margin-top: 2.5%;
+  margin-left: 45%;
+}
+
+.nav .icons {
+  float: right;
+  margin-top: -22px;
+  font-size: 25px;
+}
+
+.container {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 0.5fr 1.5fr 0.5fr 1.5fr 0.5fr 1.5fr 0.5fr;
+      grid-template-columns: 0.5fr 1.5fr 0.5fr 1.5fr 0.5fr 1.5fr 0.5fr;
+  -ms-grid-rows: 300px;
+      grid-template-rows: 300px;
+  grid-auto-columns: 1fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+      grid-template-areas: ". Ofertas-totales . Vistas-totales . Favoritos-totales .";
+  width: 75%;
+  margin-left: 12.5%;
+  margin-top: 5%;
+  color: black;
+}
+
+.Ofertas-totales {
+  -ms-grid-row: 1;
+  -ms-grid-column: 2;
+  grid-area: Ofertas-totales;
+  background-color: whitesmoke;
+  border-radius: 5%;
+  border: 2px grey solid;
+  -webkit-box-shadow: 0px 5px 0px 0px #b0b0b0, 0px -10px 0px 0px grey, 0px -15px 0px 0px #5a5858, 0px 0px 0px 0px rgba(0, 0, 0, 0);
+          box-shadow: 0px 5px 0px 0px #b0b0b0, 0px -10px 0px 0px grey, 0px -15px 0px 0px #5a5858, 0px 0px 0px 0px rgba(0, 0, 0, 0);
+}
+
+.Vistas-totales {
+  -ms-grid-row: 1;
+  -ms-grid-column: 4;
+  grid-area: Vistas-totales;
+  background-color: whitesmoke;
+  border-radius: 5%;
+  border: 2px grey solid;
+  -webkit-box-shadow: 0px 5px 0px 0px #b0b0b0, 0px -10px 0px 0px grey, 0px -15px 0px 0px #5a5858, 0px 0px 0px 0px rgba(0, 0, 0, 0);
+          box-shadow: 0px 5px 0px 0px #b0b0b0, 0px -10px 0px 0px grey, 0px -15px 0px 0px #5a5858, 0px 0px 0px 0px rgba(0, 0, 0, 0);
+}
+
+.Favoritos-totales {
+  -ms-grid-row: 1;
+  -ms-grid-column: 6;
+  grid-area: Favoritos-totales;
+  background-color: whitesmoke;
+  border-radius: 5%;
+  border: 2px grey solid;
+  -webkit-box-shadow: 0px 5px 0px 0px #b0b0b0, 0px -10px 0px 0px grey, 0px -15px 0px 0px #5a5858, 0px 0px 0px 0px rgba(0, 0, 0, 0);
+          box-shadow: 0px 5px 0px 0px #b0b0b0, 0px -10px 0px 0px grey, 0px -15px 0px 0px #5a5858, 0px 0px 0px 0px rgba(0, 0, 0, 0);
+}
+
+.icono-panel {
+  width: 35%;
+  margin-left: 40px;
+  margin-top: 70px;
+  float: left;
+  z-index: 99;
+}
+
+.n-panel {
+  color: black;
+  font-size: 50px;
+  margin-top: 90px;
+  margin-left: 10px;
+  float: left;
+  z-index: 100;
+}
+
+.n2-panel {
+  color: black;
+  margin-top: 5px;
+  margin-right: 40px;
+  float: left;
+}
+
+.info-panel {
+  color: #242424;
+  margin: 5px;
+  margin-top: 60px;
+  text-align: center;
+  float: left;
+}
+
+.div-blanco {
+  height: 10000px;
+  background-color: whitesmoke;
+  z-index: 10;
+  margin-top: -100px;
+}
+/*# sourceMappingURL=index.css.map */
